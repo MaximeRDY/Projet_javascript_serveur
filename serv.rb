@@ -2,6 +2,7 @@ require 'rubygems'
 require 'eventmachine'
 require 'em-websocket'
 
+
 EM.run do
   @main_channel = EM::Channel.new
   @subscribers = []
